@@ -1,0 +1,139 @@
+body {
+    box-sizing: border-box;
+    height: 100vh;
+    width: 100vw;
+    background-color: hsl(204, 43%, 93%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Karla", sans-serif;
+    font-size: 16px;
+}
+
+main {
+    margin: 0 30%;
+    min-width: 650px;
+    border-radius: 16px 16px 16px 16px;
+    box-shadow: 8px 8px 16px hsl(203, 27%, 83%);
+}
+
+
+#top {
+    background-color: white;
+    border-radius: 16px 16px 0 0;
+    padding: 16px 32px;
+}
+
+.plan {
+    display: flex;
+}
+
+.details {
+    background-color: hsl(179, 62%, 43%);
+    padding: 16px 32px 32px 32px;
+    border-radius: 0 0 0 16px;
+    width: 50%;
+    color: white;
+}
+
+.payment {
+    display: flex;
+    align-items: center;
+}
+
+.why-us {
+    background-color: hsl(179, 51%, 55%);
+    width: 50%;
+    border-radius: 0 0 16px 0;
+    padding: 16px 32px 32px 32px;
+}
+
+
+h1 {
+    color: hsl(179, 62%, 43%);
+}
+
+h2 {
+    color: hsl(71, 73%, 54%);
+}
+
+h3 {
+    color: white;
+}
+
+p {
+    color: hsl(218, 22%, 67%);
+}
+
+p.white {
+    color: white;
+    margin-bottom: 30px;
+}
+
+p.price {
+    font-weight: 700;
+    color: white;
+    font-size: 3rem;
+    margin-top: 0px;
+    margin-bottom: -10px;
+}
+
+p.pay-period {
+    color:hsl(204, 43%, 93%, 0.6);
+    margin-left: 16px;
+}
+
+.cta {
+    background-color: hsl(71, 73%, 54%);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 700;
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 8px 8px 16px hsl(179, 65%, 34%);
+}
+
+.cta:hover{
+    background-color: hsl(0, 0%, 100%);
+    color:hsl(71, 73%, 54%);
+    cursor: pointer;
+}
+
+.perks {
+    color:hsl(0, 0%, 100%);
+}
+
+ul li {
+    list-style-type: none;
+    margin: 0 0 6px -40px;
+    padding: 0;
+}
+
+
+
+@media only screen and (max-width: 650px) {
+    main {
+        margin: 0 30%;
+        min-width: 375px;
+    }
+
+    .plan {
+        display: block;
+        width: 100%;
+    }
+
+    .details {
+        border-radius: 0;
+        width: 83%;
+    }
+
+    .why-us {
+        border-radius: 0 0 16px 16px;
+        width: 83%;
+    }
+  }
